@@ -1,0 +1,12 @@
+{
+	"name": "EntriesGender_HttpServer1",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/rohanmuthyala12/tokyo_olympics_data/main/data/EntriesGender.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
